@@ -29,6 +29,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="jokesLibrary" exported="" scope="PROVIDED" />
+    <orderEntry type="module" module-name="jokesLibrary" exported="" scope="TEST" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: endpoints-framework-2.0.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: google-api-client-appengine-1.21.0" level="project" />
