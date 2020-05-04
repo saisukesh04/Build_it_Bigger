@@ -33,3 +33,7 @@ dependencies {
 
     implementation project(path: ':jokesLibrary')
 }
+
+appengine{
+    appengine.run.port = 8085
+}
