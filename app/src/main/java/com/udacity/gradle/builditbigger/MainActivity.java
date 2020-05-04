@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         new EndpointsAsyncTask().execute(this);
     }
 
-    class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
+    public static class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
         private MyApi myApiService = null;
         private Context context;
 
@@ -92,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
             Intent jokeIntent = new Intent(context, JokeActivity.class);
             jokeIntent.putExtra("joke",result);
             context.startActivity(jokeIntent);
-//            Toast.makeText(context, "hi", Toast.LENGTH_LONG).show();
         }
 
     }
